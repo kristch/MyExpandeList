@@ -1,0 +1,44 @@
+
+<ScrollView 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+    >
+   <LinearLayout 
+       
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <com.xyz.expande.tools.CycleShowView
+           android:id="@+id/cycleview"
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+          />
+   <com.xyz.expande.MyExpandListView   
+         android:id="@+id/expandlistview"            
+        android:layout_width="match_parent"                  
+        android:layout_height="wrap_content"                
+        />   
+           <com.xyz.expande.MyExpandListView   
+         android:id="@+id/expandlistview2"            
+        android:layout_width="match_parent"                  
+        android:layout_height="wrap_content"                
+        /> 
+             <com.xyz.expande.MyExpandListView   
+         android:id="@+id/expandlistview3"            
+        android:layout_width="match_parent"                  
+        android:layout_height="wrap_content"                
+        /> 
+             <com.xyz.expande.MyExpandListView   
+         android:id="@+id/expandlistview4"            
+        android:layout_width="match_parent"                  
+        android:layout_height="wrap_content"                
+        /> 
+        <Button 
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:background="#ff00ff"
+            />  
+       </LinearLayout>   
+</ScrollView>

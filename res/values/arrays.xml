@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="groups">
+        <item>AAA</item>
+        <item>BBB</item>
+        <item>CCC</item>
+        <item>DDD</item>
+    </string-array>
+    
+    <string-array name="tianlongbabu">
+        <item>a</item>
+        <item>aa</item>
+        <item>aaa</item>
+    </string-array>
+    
+    <string-array name="tianlongbabu_detail">
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+    </string-array>
+    
+    <string-array name="shediaoyingxiongzhuan">
+        <item>b</item>
+        <item>bb</item>
+        <item>bbb</item>
+        <item>bbbb</item>
+        <item>bbbbb</item>
+     
+    </string-array>
+    
+    <string-array name="shediaoyingxiongzhuan_detail">
+        <item>b1</item>
+        <item>b2</item>
+        <item>b3</item>
+        
+        
+    </string-array>
+    
+    <string-array name="shendiaoxialv">
+        <item>c</item>
+        <item>cc</item>
+    </string-array>
+    
+    <string-array name="shendiaoxialv_detail">
+        <item>c1</item>
+        <item>c2</item>
+    </string-array>
+    
+</resources>

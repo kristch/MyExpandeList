@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/cycle_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        />
+    <LinearLayout 
+         android:id="@+id/dot_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom"
+         android:padding="5dp"
+         android:gravity="center_horizontal"
+         android:orientation="horizontal"
+         >
+         
+     </LinearLayout>
+         <Button 
+         android:id="@+id/btleft"
+         android:layout_width="100dp"
+         android:layout_height="20dp"
+         android:background="#ff0000"
+         android:layout_gravity="left|center_vertical"
+         /> 
+     <Button 
+         android:id="@+id/btright"
+         android:layout_width="100dp"
+         android:layout_height="20dp"
+         android:background="#ff0000"
+         android:layout_gravity="right|center_vertical"
+         />
+
+
+
+</FrameLayout>
